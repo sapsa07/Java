@@ -7,8 +7,15 @@ public class Main{
         AndroidHandler androidHandler = new AndroidHandler(userPreference);
         IOSHandler iosHandler = new IOSHandler(userPreference);
     
-        androidHandler.change_user_country("Anand", "COUNTRY_USA");
-        iosHandler.change_user_country("Sabina", "COUNTRY_INDIA");
+        androidHandler.change_user_country(
+            "Anand", 
+            "COUNTRY_USA"
+        );
+
+        iosHandler.change_user_country(
+            "Sabina", 
+            "COUNTRY_INDIA"
+        );
 
 		androidHandler.change_user_language(
             "Anand", 
