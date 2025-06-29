@@ -1,3 +1,5 @@
+package ListExample;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
@@ -16,7 +18,7 @@ public class LinkedListExample {
     }
 
     public static void main(String[] args){
-        List<String> countries = new LinkedList<>();
+        List<String> countries = new LinkedList<>(); // uses nodes
         countries.add("JAPAN");
         countries.add("PORTUGAL");
         countries.add("ARGENTINA");

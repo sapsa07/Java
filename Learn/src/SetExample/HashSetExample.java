@@ -1,9 +1,11 @@
+package SetExample;
+
 import java.util.HashSet;
 import java.util.Set;
 
 public class HashSetExample {
     public static void main(String[] args){
-        Set<String> colors = new HashSet<>();
+        Set<String> colors = new HashSet<>(); // unordered
         colors.add("Red");
         colors.add("Green");
         colors.add("Red"); // Ignored
